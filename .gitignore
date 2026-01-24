@@ -1,0 +1,29 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# --- PyInstaller ---
+build/
+dist/
+*.spec
+
+# --- Exécutables ---
+*.exe
+*.bat
+
+# --- Sécurité & Certificats  ---
+*.pem
+*.key
+rootCA*
+
+# --- Configuration locale ---
+settings.json
+
+# --- IDE ---
+.vscode/
+.idea/
