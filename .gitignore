@@ -6,6 +6,7 @@ __pycache__/
 venv/
 ENV/
 env/
+localdrop/
 
 # --- PyInstaller ---
 build/
@@ -19,6 +20,9 @@ dist/
 # --- Sécurité & Certificats  ---
 *.pem
 *.key
+*.p12
+*.cer
+*.pfx
 rootCA*
 
 # --- Configuration locale ---
